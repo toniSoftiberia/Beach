@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+        <!-- se colocal el LinearLayout que contendra el formulario -->
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/name"
+                    android:text="Lost kids"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#21610B"
+                    android:layout_marginTop="15dip"
+                    android:layout_marginBottom="15dip"
+                    android:gravity="center"
+                    android:textSize="25dip"
+                    />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/List"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+                </ListView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <Button android:id="@+id/back" style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp" android:text="@string/action_back"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+</RelativeLayout>

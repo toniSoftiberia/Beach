@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_kid">Type a name</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_clean">Clean the beach</string>
+    <string name="action_back">Go back</string>
+    <string name="action_balls">Throw Nivea Balls</string>
+    <string name="action_search">Search for Lost Kids</string>
+    <string name="action_green">Turn Flag to Green</string>
+    <string name="action_red">Turn to Flag Red</string>
+    <string name="action_yellow">Turn Flag to Yellow</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="error_login">The data is incorrect</string>
+    <string name="error_register">User not registered</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_password">This password is invalid</string>
+    <string name="error_field_required">This field is required</string>
+</resources>
